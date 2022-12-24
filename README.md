@@ -61,3 +61,17 @@ Voici comment cela pourrait se traduire visuellement :<br>
 
 <p align="justify">Dans ce diagramme, on peut voir que chaque micro-service utilise un repository pour accéder à sa propre base de données et implémente un "Command Handler" pour séparer la logique de traitement des commandes de la logique de persistance des données, ce qui facilite la maintenance et l'évolution du système. Elle permet également de mettre en place l'Event Sourcing, c'est-à-dire de stocker l'historique complet des changements d'état du système sous forme d'événements, ce qui peut être utile pour la rejouabilité et la reconstruction de l'état du système.</p><br>
 
+<div style=" font-size: medium; color: #447ff7" align=center>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">  
+</div>
+<br>
+
+## 🔹 3- Micro-service Radar
+<p align="justify">Le micro-service "Radar" permet de gérer les radars automatiques installés sur les routes. Il permet de créer, de mettre à jour et de consulter les informations sur les radars, comme leur localisation, leur vitesse maximale autorisée, etc.</p><br>
+
+## 🔹 4- Micro-service Immatriculation
+<p align="justify">Le micro-service "Immatriculation" permet de gérer les véhicules et leurs propriétaires. Il permet de créer, de mettre à jour et de consulter les informations sur les véhicules, comme leur marque, leur modèle, leur puissance fiscale, etc. Il permet également de gérer les informations sur les propriétaires, comme leur nom, leur date de naissance, leur email, etc.</p><br>
+
+## 🔹 5- Micro-service Infraction
+<p align="justify">Le micro-service "Infraction" permet de gérer les infractions enregistrées par le système. Il permet de créer de nouvelles infractions lorsqu'un radar détecte un dépassement de vitesse, et de consulter les infractions enregistrées pour un propriétaire donné. Chaque infraction est enregistrée avec des informations comme la date de l'infraction, le radar qui l'a détectée, le véhicule impliqué, la vitesse du véhicule, etc.</p><br>
+
