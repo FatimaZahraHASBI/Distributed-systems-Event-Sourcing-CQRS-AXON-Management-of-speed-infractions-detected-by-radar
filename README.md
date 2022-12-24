@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## 🔹 Fatima Zahra HASBI
 <p align="justify">
 Système distribué basé sur les micro-services en utilisant une architecture pilotée par les événements respectant les deux patterns Event Sourcing et CQRS. Cette application permet de gérer les infractions concernant des véhicules suites à des dépassement de vitesses détectés par des radars automatiques.
@@ -60,6 +59,4 @@ Voici comment cela pourrait se traduire visuellement :<br>
 <p align="justify">Le module "CommonApiModule" contient les composants communs aux différents projets, tels que les Commandes, les Evénements, les Queries, les DTOs, etc., qui sont utilisés par les micro-services pour communiquer entre eux et mettre en place l'architecture pilotée par les événements, l'Event Sourcing est utilisé pour stocker l'historique des changements d'état des différents objets du système, tels que les radars, les propriétaires et les véhicules, ainsi que les infractions.</p><br>
 
 <p align="justify">Dans ce diagramme, on peut voir que chaque micro-service utilise un repository pour accéder à sa propre base de données et implémente un "Command Handler" pour séparer la logique de traitement des commandes de la logique de persistance des données, ce qui facilite la maintenance et l'évolution du système. Elle permet également de mettre en place l'Event Sourcing, c'est-à-dire de stocker l'historique complet des changements d'état du système sous forme d'événements, ce qui peut être utile pour la rejouabilité et la reconstruction de l'état du système.</p><br>
-=======
 
->>>>>>> 8c875550d08e8fb39d5292b3832c5d11d334279f
