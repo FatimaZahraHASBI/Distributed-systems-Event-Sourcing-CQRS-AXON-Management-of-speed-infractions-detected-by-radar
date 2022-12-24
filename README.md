@@ -19,7 +19,7 @@ Système distribué basé sur les micro-services en utilisant une architecture p
 ## 🔹 1- L’architecture technique du projet
 <p align="justify">
 L’architecture technique pour ce projet se basent principalement sur l’utilisation des éléments suivants :</p><br>
-<p align="justify"><B>•	Micro-services : </B>chaque fonctionnalité du système sera mise en place dans un micro-service distinct, afin de permettre une maintenance et une évolution indépendantes de chaque composant.</p><br>
+<p align="justify"><B>•	Micro-services : </B>chaque fonctionnalité du système sera mise en place dans un micro-service distinct, afin de permettre une maintenance et une évolution indépendantes de chaque composant. Chaque micro-service est découplé en deux parties : la partie commande et la partie query. La partie commande gère les actions effectuées sur les données du micro-service, tandis que la partie query permet de réaliser des requêtes de lecture sur ces données.</p><br>
 
 <p align="justify"><B>•	L’architecture pilotée par les événements : </B>chaque micro-service enverra des événements lorsque des données seront modifiées, ce qui permettra aux autres micro-services de mettre à jour leurs propres données en conséquence.</p><br>
 
