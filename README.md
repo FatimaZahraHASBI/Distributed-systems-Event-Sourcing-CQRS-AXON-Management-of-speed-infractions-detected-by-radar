@@ -48,8 +48,12 @@ Voici comment cela pourrait se traduire visuellement :<br>
 </div>
 <br>
 
-## 🔹 2- Diagramme de classe global de projet
+## 🔹 2- Diagramme de classe 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209452869-1fcc1ee2-f224-47ee-97e1-9c283e760e9a.png">
+</p>
 
+### Diagramme pour les micro-services
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63150702/209411911-3b24e2e3-0d21-4063-9625-9aa356f3f07b.png" width="60%">
 </p>
