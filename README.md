@@ -35,7 +35,7 @@ L’architecture technique pour ce projet se basent principalement sur l’utili
 Voici comment cela pourrait se traduire visuellement :<br>
  
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63150702/209451155-7e661cc3-ab2d-4be6-b246-6245f6633ce6.png" width="80%">
+<img src="https://user-images.githubusercontent.com/63150702/209451155-7e661cc3-ab2d-4be6-b246-6245f6633ce6.png" >
 </p>
 
 <br> 
