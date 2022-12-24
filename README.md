@@ -1,2 +1,1 @@
-# Distributed-systems-Event-Sourcing-CQRS-AXON-Management-of-speed-infractions-detected-by-radar
-Système distribué basé sur les micro-services en utilisant une architecture pilotée par les événements respectant les deux patterns Event Sourcing et CQRS. Cette application permet de gérer les infractions concernant des véhicules suites à des dépassement de vitesses détectés par des radars automatiques.
+
