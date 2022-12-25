@@ -148,5 +148,31 @@ Voici comment cela pourrait se traduire visuellement :<br>
 
 ![image](https://user-images.githubusercontent.com/63150702/209477911-24a85545-0903-4f5d-929f-2e31a6461bbe.png)<br><br>
 
+## 🔹 6- Eureka Discovery Sever
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209478191-60c0482b-019b-4c81-88b9-9698b8e01b5a.png" >
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209478221-5da26775-f2a1-46a7-96ee-398813273dbd.png" >
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209478221-5da26775-f2a1-46a7-96ee-398813273dbd.png" >
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209478265-47057957-f324-4924-a797-83e7ee18eec3.png" >
+</p>
+
+<br>
+## 🔹 7- Gateway
+![image](https://user-images.githubusercontent.com/63150702/209478358-b235ed76-94d3-4357-a038-938cde997c98.png)<br><br>
+![image](https://user-images.githubusercontent.com/63150702/209478419-d2e5b39c-4f4a-4ec6-a163-79008acfae79.png)<br><br>
+
+<br>
+## 🔹 8- Projet Angular UI
+
+![image](https://user-images.githubusercontent.com/63150702/209478520-9941ebfc-f6d4-4dbb-a312-c6e875432e74.png)
 
 
