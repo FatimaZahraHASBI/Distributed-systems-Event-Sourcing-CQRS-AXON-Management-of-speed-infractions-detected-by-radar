@@ -5,9 +5,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>core-api</module>
-        <module>immatriculation</module>
-        <module>infractions</module>
-        <module>radar</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -23,7 +20,6 @@
     <properties>
         <java.version>17</java.version>
         <spring-cloud.version>2021.0.5</spring-cloud.version>
-        <kotlin.version>1.5.10</kotlin.version>
     </properties>
     <dependencies>
         <dependency>
@@ -35,28 +31,9 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-ui</artifactId>
             <version>1.6.14</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mapstruct</groupId>
-            <artifactId>mapstruct</artifactId>
-            <version>1.5.3.Final</version>
-        </dependency>
-        <dependency>
-            <groupId>org.axonframework</groupId>
-            <artifactId>axon-spring-boot-starter</artifactId>
-            <version>4.3</version>
-        </dependency>
-        <dependency>
-            <groupId>io.projectreactor</groupId>
-            <artifactId>reactor-core</artifactId>
-            <version>3.5.1</version>
         </dependency>
         <dependency>
             <groupId>com.mysql</groupId>
@@ -73,18 +50,19 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.axonframework</groupId>
+            <artifactId>axon-spring-boot-starter</artifactId>
+            <version>4.6.1</version>
+            <!--			<exclusions>-->
+            <!--				<exclusion>-->
+            <!--					<groupId>org.axonframework</groupId>-->
+            <!--					<artifactId>axon-server-connector</artifactId>-->
+            <!--				</exclusion>-->
+            <!--			</exclusions>-->
+        </dependency>
     </dependencies>
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>${spring-cloud.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <build>
         <plugins>
@@ -98,24 +76,6 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                    <annotationProcessorPaths>
-                        <path>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </path>
-                        <path>
-                            <groupId>org.mapstruct</groupId>
-                            <artifactId>mapstruct-processor</artifactId>
-                        </path>
-                    </annotationProcessorPaths>
                 </configuration>
             </plugin>
         </plugins>

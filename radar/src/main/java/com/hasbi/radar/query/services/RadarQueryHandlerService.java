@@ -20,7 +20,6 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class RadarQueryHandlerService {
-    @Autowired
     private RadarRepository radarRepository;
 
     @QueryHandler

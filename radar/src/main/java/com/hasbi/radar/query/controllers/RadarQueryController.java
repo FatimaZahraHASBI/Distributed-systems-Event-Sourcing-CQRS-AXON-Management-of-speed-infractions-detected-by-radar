@@ -2,9 +2,8 @@ package com.hasbi.radar.query.controllers;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
-import me.elaamiri.queries.radarQueries.GetAllRadarsQuery;
-import me.elaamiri.queries.radarQueries.GetRadarByIdQuery;
-import me.elaamiri.radarmanagement.query.entities.Radar;
+import com.hasbi.core.queries.radarQueries.*;
+import com.hasbi.radar.query.entities.Radar;
 import org.axonframework.messaging.responsetypes.ResponseTypes;
 import org.axonframework.queryhandling.QueryGateway;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +17,6 @@ import java.util.List;
 @AllArgsConstructor @NoArgsConstructor
 @RequestMapping("/query/radars")
 public class RadarQueryController {
-    @Autowired
     private QueryGateway queryGateway;
 
     @GetMapping("")

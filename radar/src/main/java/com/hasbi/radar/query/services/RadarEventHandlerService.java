@@ -3,12 +3,10 @@ package com.hasbi.radar.query.services;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import me.elaamiri.events.radarEvents.RadarCreatedEvent;
-import me.elaamiri.events.radarEvents.RadarDeletedEvent;
-import me.elaamiri.events.radarEvents.RadarUpdatedEvent;
-import me.elaamiri.exceptions.RadarNotFoundException;
-import me.elaamiri.radarmanagement.query.entities.Radar;
-import me.elaamiri.radarmanagement.query.repositories.RadarRepository;
+import com.hasbi.radar.query.repositories.RadarRepository;
+import com.hasbi.core.events.radarEvents.*;
+import com.hasbi.radar.query.entities.Radar;
+import com.hasbi.core.exceptions.RadarNotFoundException;
 import org.axonframework.eventhandling.EventHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,34 +15,31 @@ import org.springframework.stereotype.Service;
 @Slf4j
 @AllArgsConstructor @NoArgsConstructor
 public class RadarEventHandlerService {
-
-    @Autowired
-    private  RadarRepository radarRepository;
+    private RadarRepository radarRepository;
 
     @EventHandler
-    public void on(RadarCreatedEvent event){
+    public Radar on(RadarCreatedEvent event){
         log.info("#==> RadarCreatedEvent Received");
         Radar radar = Radar.builder()
                 .radarId(event.getId())
-                .vitesse_max(event.getVitesse_max())
+                .speed_limit(event.getSpeed_limit())
                 .longitude(event.getLongitude())
                 .latitude(event.getLatitude())
                 .build();
         System.out.println(radar);
-
-        Radar savedRadar = radarRepository.save(radar);
         log.info("#==> Radar saved");
+        return radarRepository.save(radar);
     }
 
     @EventHandler
-    public void on(RadarUpdatedEvent event){
+    public Radar on(RadarUpdatedEvent event){
         log.info("#==> RadarUpdatedEvent Received");
         Radar radar = radarRepository.findById(event.getId()).orElseThrow(()-> new RadarNotFoundException(String.format("Radar with ID [%s] Not Found !", event.getId())));
-        radar.setVitesse_max(event.getVitesse_max());
+        radar.setSpeed_limit(event.getSpeed_limit());
         radar.setLongitude(event.getLongitude());
         radar.setLatitude(event.getLatitude());
 
-        radarRepository.save(radar);
+        return radarRepository.save(radar);
     }
 
     @EventHandler

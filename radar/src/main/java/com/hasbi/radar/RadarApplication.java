@@ -23,7 +23,7 @@ public class RadarApplication {
     public XStream xStream() {
         XStream xStream = new XStream();
 
-        xStream.allowTypesByWildcard(new String[] { "me.elaamiri.**" });
+        xStream.allowTypesByWildcard(new String[] { "com.hasbi.**" });
         return xStream;
     }
 }
