@@ -204,4 +204,15 @@ Voici comment cela pourrait se traduire visuellement :<br>
 
 ![image](https://user-images.githubusercontent.com/63150702/209478520-9941ebfc-f6d4-4dbb-a312-c6e875432e74.png)
 
+<div style=" font-size: medium; color: #447ff7" align=center>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">  
+</div>
+<br>
+
+## Conclusion
+
+<p align="justify">L'utilisation des micro-services et de l'Event Sourcing a permis de construire une application scalable et facile à maintenir, tandis que le CQRS a permis d'optimiser les performances de l'application et de faciliter son évolution.</p>
+<p align="justify">Le projet a été mené en utilisant les frameworks Spring Cloud et AXON, et a fait appel à un module "common-api" regroupant les composants communs aux différents projets.</p>
+<p align="justify">En conclusion, le projet "Système de gestion des infractions routières" a permis de mettre en place une application robuste et efficace, qui répond parfaitement aux besoins du cahier des charges défini en début de projet.<.p>
+
 
