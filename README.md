@@ -92,6 +92,10 @@ Voici comment cela pourrait se traduire visuellement :<br>
 ![image](https://user-images.githubusercontent.com/63150702/209471060-068c0e13-3f11-45ac-810a-674efd23846c.png)<br>
 
 
+<div style=" font-size: medium; color: #447ff7" align=center>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">  
+</div>
+<br>
 
 ## 🔹 4- Micro-service Immatriculation
 <p align="justify">Le micro-service "Immatriculation" permet de gérer les véhicules et leurs propriétaires. Il permet de créer, de mettre à jour et de consulter les informations sur les véhicules, comme leur marque, leur modèle, leur puissance fiscale, etc. Il permet également de gérer les informations sur les propriétaires, comme leur nom, leur date de naissance, leur email, etc.</p><br>
@@ -127,6 +131,11 @@ Voici comment cela pourrait se traduire visuellement :<br>
 <img src="https://user-images.githubusercontent.com/63150702/209476352-2f3d56ca-3739-45bd-8a09-65b21783a403.png" >
 </p>
 
+<div style=" font-size: medium; color: #447ff7" align=center>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">  
+</div>
+<br>
+
 ## 🔹 5- Micro-service Infraction
 <p align="justify">Le micro-service "Infraction" permet de gérer les infractions enregistrées par le système. Il permet de créer de nouvelles infractions lorsqu'un radar détecte un dépassement de vitesse, et de consulter les infractions enregistrées pour un propriétaire donné. Chaque infraction est enregistrée avec des informations comme la date de l'infraction, le radar qui l'a détectée, le véhicule impliqué, la vitesse du véhicule, etc.</p><br>
 
@@ -148,5 +157,51 @@ Voici comment cela pourrait se traduire visuellement :<br>
 
 ![image](https://user-images.githubusercontent.com/63150702/209477911-24a85545-0903-4f5d-929f-2e31a6461bbe.png)<br><br>
 
+
+<div style=" font-size: medium; color: #447ff7" align=center>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">  
+</div>
+<br>
+
+## 🔹 6- Eureka Discovery Sever
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209478191-60c0482b-019b-4c81-88b9-9698b8e01b5a.png" >
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209478221-5da26775-f2a1-46a7-96ee-398813273dbd.png" >
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209478221-5da26775-f2a1-46a7-96ee-398813273dbd.png" >
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209478265-47057957-f324-4924-a797-83e7ee18eec3.png" >
+</p>
+
+<div style=" font-size: medium; color: #447ff7" align=center>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">  
+</div>
+<br>
+
+## 🔹 7- Gateway
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209478358-b235ed76-94d3-4357-a038-938cde997c98.png" >
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209478419-d2e5b39c-4f4a-4ec6-a163-79008acfae79.png" >
+</p>
+
+<div style=" font-size: medium; color: #447ff7" align=center>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">  
+</div>
+<br>
+
+## 🔹 8- Projet Angular UI
+
+![image](https://user-images.githubusercontent.com/63150702/209478520-9941ebfc-f6d4-4dbb-a312-c6e875432e74.png)
 
 
