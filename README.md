@@ -99,6 +99,18 @@ Voici comment cela pourrait se traduire visuellement :<br>
 <img src="https://user-images.githubusercontent.com/63150702/209475789-9ba1dc72-4ae2-4363-b921-d0a121273786.png" >
 </p>
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209475870-fa79b2f4-eb1a-4ce6-b20f-13ab66a8f381.png" >
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209475903-57205d94-9bff-4b2c-90d9-02425d459c3f.png" >
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209476033-653ccfa2-996a-4039-9a3b-2eab8e0674e4.png" >
+</p>
+
 
 ## 🔹 5- Micro-service Infraction
 <p align="justify">Le micro-service "Infraction" permet de gérer les infractions enregistrées par le système. Il permet de créer de nouvelles infractions lorsqu'un radar détecte un dépassement de vitesse, et de consulter les infractions enregistrées pour un propriétaire donné. Chaque infraction est enregistrée avec des informations comme la date de l'infraction, le radar qui l'a détectée, le véhicule impliqué, la vitesse du véhicule, etc.</p><br>
