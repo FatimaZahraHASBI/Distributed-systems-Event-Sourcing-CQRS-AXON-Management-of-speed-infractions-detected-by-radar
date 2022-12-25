@@ -76,7 +76,7 @@ Voici comment cela pourrait se traduire visuellement :<br>
 ![image](https://user-images.githubusercontent.com/63150702/209473684-4854d433-e59e-4a96-ac49-203445e6303b.png)<br><br>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63150702/209473863-8e97961f-6488-410b-a451-ccd56a0f9199.png" width="80%">
+<img src="https://user-images.githubusercontent.com/63150702/209473863-8e97961f-6488-410b-a451-ccd56a0f9199.png" width="90%">
 </p>
 
 <p align="center">
