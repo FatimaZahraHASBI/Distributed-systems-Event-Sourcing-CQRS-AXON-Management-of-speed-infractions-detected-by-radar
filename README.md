@@ -69,10 +69,10 @@ Voici comment cela pourrait se traduire visuellement :<br>
 ## 🔹 3- Micro-service Radar
 <p align="justify">Le micro-service "Radar" permet de gérer les radars automatiques installés sur les routes. Il permet de créer, de mettre à jour et de consulter les informations sur les radars, comme leur localisation, leur vitesse maximale autorisée, etc.</p><br>
 
-![image](https://user-images.githubusercontent.com/63150702/209471041-65b37f46-1fd7-45ac-8db4-aad3e3d7387f.png)<br>
-![image](https://user-images.githubusercontent.com/63150702/209471048-cb2a571b-ad7e-47f6-a903-4b73071ca9f8.png)<br>
-![image](https://user-images.githubusercontent.com/63150702/209471051-30b412eb-82d1-4b8d-a3ef-e3037ef94073.png)<br>
-![image](https://user-images.githubusercontent.com/63150702/209471053-75ad0a96-9d65-41cd-ade8-9f9fb2104123.png)<br>
+![image](https://user-images.githubusercontent.com/63150702/209471041-65b37f46-1fd7-45ac-8db4-aad3e3d7387f.png)<br><br>
+![image](https://user-images.githubusercontent.com/63150702/209471048-cb2a571b-ad7e-47f6-a903-4b73071ca9f8.png)<br><br>
+![image](https://user-images.githubusercontent.com/63150702/209471051-30b412eb-82d1-4b8d-a3ef-e3037ef94073.png)<br><br>
+![image](https://user-images.githubusercontent.com/63150702/209471053-75ad0a96-9d65-41cd-ade8-9f9fb2104123.png)<br><br>
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63150702/209473164-792731d5-d2c2-4f59-8735-d923de95ec0d.png" >
