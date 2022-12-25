@@ -111,6 +111,25 @@ Voici comment cela pourrait se traduire visuellement :<br>
 <img src="https://user-images.githubusercontent.com/63150702/209476033-653ccfa2-996a-4039-9a3b-2eab8e0674e4.png" >
 </p>
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209476135-96932346-b05a-49cf-9353-d6131ddc2e1b.png" >
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209476246-dad07c37-690d-4ef4-94ea-825150bd6518.png" >
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209476273-06e8a6af-b57a-4f7d-be3a-fbae706a8dd5.png" >
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209476333-0a1eebc0-7ff8-4165-b675-15a2d6aa085e.png" >
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209476352-2f3d56ca-3739-45bd-8a09-65b21783a403.png" >
+</p>
 
 ## 🔹 5- Micro-service Infraction
 <p align="justify">Le micro-service "Infraction" permet de gérer les infractions enregistrées par le système. Il permet de créer de nouvelles infractions lorsqu'un radar détecte un dépassement de vitesse, et de consulter les infractions enregistrées pour un propriétaire donné. Chaque infraction est enregistrée avec des informations comme la date de l'infraction, le radar qui l'a détectée, le véhicule impliqué, la vitesse du véhicule, etc.</p><br>
