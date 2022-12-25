@@ -15,7 +15,7 @@ public class ImmatriculationApplication {
     }
 
     @Bean
-        // for axon server connection
+    // axon server connection
     CommandBus commandBus(){
         return SimpleCommandBus.builder().build();
     }
