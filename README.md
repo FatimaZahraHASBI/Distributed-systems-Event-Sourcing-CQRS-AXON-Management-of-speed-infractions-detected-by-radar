@@ -69,16 +69,63 @@ Voici comment cela pourrait se traduire visuellement :<br>
 ## 🔹 3- Micro-service Radar
 <p align="justify">Le micro-service "Radar" permet de gérer les radars automatiques installés sur les routes. Il permet de créer, de mettre à jour et de consulter les informations sur les radars, comme leur localisation, leur vitesse maximale autorisée, etc.</p><br>
 
-![image](https://user-images.githubusercontent.com/63150702/209471041-65b37f46-1fd7-45ac-8db4-aad3e3d7387f.png)<br>
-![image](https://user-images.githubusercontent.com/63150702/209471048-cb2a571b-ad7e-47f6-a903-4b73071ca9f8.png)<br>
-![image](https://user-images.githubusercontent.com/63150702/209471051-30b412eb-82d1-4b8d-a3ef-e3037ef94073.png)<br>
-![image](https://user-images.githubusercontent.com/63150702/209471053-75ad0a96-9d65-41cd-ade8-9f9fb2104123.png)<br>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209475695-4f390922-c6d9-4f0b-9a25-eddcd13ad789.png" width="90%">
+</p>
+
+![image](https://user-images.githubusercontent.com/63150702/209471041-65b37f46-1fd7-45ac-8db4-aad3e3d7387f.png)<br><br>
+![image](https://user-images.githubusercontent.com/63150702/209471048-cb2a571b-ad7e-47f6-a903-4b73071ca9f8.png)<br><br>
+![image](https://user-images.githubusercontent.com/63150702/209471051-30b412eb-82d1-4b8d-a3ef-e3037ef94073.png)<br><br>
+![image](https://user-images.githubusercontent.com/63150702/209471053-75ad0a96-9d65-41cd-ade8-9f9fb2104123.png)<br><br>
+![image](https://user-images.githubusercontent.com/63150702/209473684-4854d433-e59e-4a96-ac49-203445e6303b.png)<br><br>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209473863-8e97961f-6488-410b-a451-ccd56a0f9199.png" width="90%">
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209473164-792731d5-d2c2-4f59-8735-d923de95ec0d.png" >
+</p>
+
+
 ![image](https://user-images.githubusercontent.com/63150702/209471057-781590b7-8df4-4190-800e-51df0b83705b.png)<br>
 ![image](https://user-images.githubusercontent.com/63150702/209471060-068c0e13-3f11-45ac-810a-674efd23846c.png)<br>
 
 
+
 ## 🔹 4- Micro-service Immatriculation
 <p align="justify">Le micro-service "Immatriculation" permet de gérer les véhicules et leurs propriétaires. Il permet de créer, de mettre à jour et de consulter les informations sur les véhicules, comme leur marque, leur modèle, leur puissance fiscale, etc. Il permet également de gérer les informations sur les propriétaires, comme leur nom, leur date de naissance, leur email, etc.</p><br>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209475789-9ba1dc72-4ae2-4363-b921-d0a121273786.png" >
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209475870-fa79b2f4-eb1a-4ce6-b20f-13ab66a8f381.png" >
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209475903-57205d94-9bff-4b2c-90d9-02425d459c3f.png" >
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209476135-96932346-b05a-49cf-9353-d6131ddc2e1b.png" >
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209476246-dad07c37-690d-4ef4-94ea-825150bd6518.png" >
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209476273-06e8a6af-b57a-4f7d-be3a-fbae706a8dd5.png" >
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209476333-0a1eebc0-7ff8-4165-b675-15a2d6aa085e.png" >
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209476352-2f3d56ca-3739-45bd-8a09-65b21783a403.png" >
+</p>
 
 ## 🔹 5- Micro-service Infraction
 <p align="justify">Le micro-service "Infraction" permet de gérer les infractions enregistrées par le système. Il permet de créer de nouvelles infractions lorsqu'un radar détecte un dépassement de vitesse, et de consulter les infractions enregistrées pour un propriétaire donné. Chaque infraction est enregistrée avec des informations comme la date de l'infraction, le radar qui l'a détectée, le véhicule impliqué, la vitesse du véhicule, etc.</p><br>
