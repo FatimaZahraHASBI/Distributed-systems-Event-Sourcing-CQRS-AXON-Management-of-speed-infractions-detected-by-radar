@@ -108,10 +108,6 @@ Voici comment cela pourrait se traduire visuellement :<br>
 </p>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63150702/209476033-653ccfa2-996a-4039-9a3b-2eab8e0674e4.png" >
-</p>
-
-<p align="center">
 <img src="https://user-images.githubusercontent.com/63150702/209476135-96932346-b05a-49cf-9353-d6131ddc2e1b.png" >
 </p>
 
