@@ -73,22 +73,20 @@ Voici comment cela pourrait se traduire visuellement :<br>
 ![image](https://user-images.githubusercontent.com/63150702/209471048-cb2a571b-ad7e-47f6-a903-4b73071ca9f8.png)<br><br>
 ![image](https://user-images.githubusercontent.com/63150702/209471051-30b412eb-82d1-4b8d-a3ef-e3037ef94073.png)<br><br>
 ![image](https://user-images.githubusercontent.com/63150702/209471053-75ad0a96-9d65-41cd-ade8-9f9fb2104123.png)<br><br>
-![image](https://user-images.githubusercontent.com/63150702/209473684-4854d433-e59e-4a96-ac49-203445e6303b.png)
+![image](https://user-images.githubusercontent.com/63150702/209473684-4854d433-e59e-4a96-ac49-203445e6303b.png)<br><br>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209473863-8e97961f-6488-410b-a451-ccd56a0f9199.png" width="80%">
+</p>
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63150702/209473164-792731d5-d2c2-4f59-8735-d923de95ec0d.png" >
 </p>
 
+
 ![image](https://user-images.githubusercontent.com/63150702/209471057-781590b7-8df4-4190-800e-51df0b83705b.png)<br>
 ![image](https://user-images.githubusercontent.com/63150702/209471060-068c0e13-3f11-45ac-810a-674efd23846c.png)<br>
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/63150702/209473885-e1b8dd7f-d96e-40dc-bb9b-bf5e281d3bbf.png" width="80%">
-</p>
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/63150702/209473863-8e97961f-6488-410b-a451-ccd56a0f9199.png" width="80%">
-</p>
 
 
 ## 🔹 4- Micro-service Immatriculation
