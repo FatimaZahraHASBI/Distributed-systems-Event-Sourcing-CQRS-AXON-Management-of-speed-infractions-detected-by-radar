@@ -69,6 +69,10 @@ Voici comment cela pourrait se traduire visuellement :<br>
 ## 🔹 3- Micro-service Radar
 <p align="justify">Le micro-service "Radar" permet de gérer les radars automatiques installés sur les routes. Il permet de créer, de mettre à jour et de consulter les informations sur les radars, comme leur localisation, leur vitesse maximale autorisée, etc.</p><br>
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209475695-4f390922-c6d9-4f0b-9a25-eddcd13ad789.png" width="90%">
+</p>
+
 ![image](https://user-images.githubusercontent.com/63150702/209471041-65b37f46-1fd7-45ac-8db4-aad3e3d7387f.png)<br><br>
 ![image](https://user-images.githubusercontent.com/63150702/209471048-cb2a571b-ad7e-47f6-a903-4b73071ca9f8.png)<br><br>
 ![image](https://user-images.githubusercontent.com/63150702/209471051-30b412eb-82d1-4b8d-a3ef-e3037ef94073.png)<br><br>
