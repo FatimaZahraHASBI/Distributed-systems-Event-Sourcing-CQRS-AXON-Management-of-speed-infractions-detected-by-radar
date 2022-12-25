@@ -95,6 +95,10 @@ Voici comment cela pourrait se traduire visuellement :<br>
 
 ## 🔹 4- Micro-service Immatriculation
 <p align="justify">Le micro-service "Immatriculation" permet de gérer les véhicules et leurs propriétaires. Il permet de créer, de mettre à jour et de consulter les informations sur les véhicules, comme leur marque, leur modèle, leur puissance fiscale, etc. Il permet également de gérer les informations sur les propriétaires, comme leur nom, leur date de naissance, leur email, etc.</p><br>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63150702/209475789-9ba1dc72-4ae2-4363-b921-d0a121273786.png" >
+</p>
+
 
 ## 🔹 5- Micro-service Infraction
 <p align="justify">Le micro-service "Infraction" permet de gérer les infractions enregistrées par le système. Il permet de créer de nouvelles infractions lorsqu'un radar détecte un dépassement de vitesse, et de consulter les infractions enregistrées pour un propriétaire donné. Chaque infraction est enregistrée avec des informations comme la date de l'infraction, le radar qui l'a détectée, le véhicule impliqué, la vitesse du véhicule, etc.</p><br>
